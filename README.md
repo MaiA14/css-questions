@@ -133,12 +133,12 @@
        - Relative - Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.\
        - Fixed - it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.\
          A fixed element does not leave a gap in the page where it would normally have been located.\
-       - Absolute -  is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).\
+       - Absolute -  is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
          However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
-         Note: A "positioned" element is one whose position is anything except static.
+         Note: A "positioned" element is one whose position is anything except static.\
  **35) What are navigation bars in CSS?**\
-       By using navigation bars we can make an ordinary HTML page into a user-specific and more dynamic web page. Basically, it is a list of links, hence use of <ul>
-       and <li> elements makes the perfect sense.\
+       By using navigation bars we can make an ordinary HTML page into a user-specific and more dynamic web page. Basically, it is a list of links, hence use of ul
+       and li elements makes the perfect sense.\
  **36) Differentiate between inline and block element?**\
        Inline element does not have an element to set width and height and also it does not have the line break.Block element specification:
        They do have the line break. They define the width by setting a container and also allow setting height.
