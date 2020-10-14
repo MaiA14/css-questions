@@ -1,8 +1,8 @@
 # CSS questions
 
 **1) What is CSS?**\
-     CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites.  cascading means the process of combining several    
-     style sheets and resolving conflicts between them\
+     CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites.
+     cascading means the process of combining several style sheets and resolving conflicts between them.\
 **2)  How can you integrate CSS on a web page?**\
      - Inline method - It is used to insert style sheets in HTML document
      - Embedded/Internal method - It is used to add a unique style to a single document
