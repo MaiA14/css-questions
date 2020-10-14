@@ -44,7 +44,7 @@
        The background-attachment property is used to specify if the background image is fixed or scroll with the rest of the page in the browser window.\
  **13. What is the difference between class selectors and id selectors?**\
        An overall block is given to class selector while id selectors take only a single element differing from other elements.\
- **14) What are the advantages of External Style Sheets?**\
+ **14. What are the advantages of External Style Sheets?**\
        - You can create classes for reusing it in many documents.\
        - By using it, you can control the styles of multiple documents from one file.\
        - In complex situations, you can use selectors and grouping methods to apply styles.\
@@ -97,14 +97,14 @@
        they can be animated. For example: ::before, ::after.\
 **26.  Name all the modules which are used in the current version of CSS.**\
        There are several modules in CSS as stated below:
-       - Selectors
-       - Box Model
-       - Backgrounds and Borders
-       - Text Effects
-       - 2D/3D Transformations
-       - Animations
-       - Multiple Column Layout
-       - User Interface.
+       - Selectors\
+       - Box Model\
+       - Backgrounds and Borders\
+       - Text Effects\
+       - 2D/3D Transformations\
+       - Animations\
+       - Multiple Column Layout\
+       - User Interface.\
 **27. Define CSS image scripts.**\
       CSS image scripts are a group of images that are placed into one image. It reduces the load time and request number to the server while projecting multiple images
       into a single web page.\
@@ -114,12 +114,12 @@
        CSS specificity is a score or rank that decides which style declaration has to be used to an element. (*) this universal selector has low specificity while ID
        selectors have high specificity.\
  **30. Write all the properties of the flexbox.**\
-       - flex-direction
-       - flex-wrap
-       - flex-flow
-       - justify-content
-       - align-items
-       - align-content
+       - flex-direction\
+       - flex-wrap\
+       - flex-flow\
+       - justify-content\
+       - align-items\
+       - align-content\
 **31. How to align image vertically in a division that spans vertically on the whole webpage?**\
       It can be done by using the syntax verticle-align: middle in the <div1> element and even we can bind the two text spans around with another span and after this,
       we have to use verticle-align: middle in the content #icon.\
