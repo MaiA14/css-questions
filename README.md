@@ -1,7 +1,8 @@
 # CSS questions
 
 **1) What is CSS?**\
-     CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites.\
+     CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites.  cascading means the process of combining several    
+     style sheets and resolving conflicts between them\
 **2)  How can you integrate CSS on a web page?**\
      - Inline method - It is used to insert style sheets in HTML document
      - Embedded/Internal method - It is used to add a unique style to a single document
@@ -128,41 +129,49 @@
       **33) What is a CSS pseudo-class?**\
             It is a class that is used to define a special state of an HTML element. For example: hover.\
       **34) Write all the position states used in CSS.?**\
-            - Static(default) - it is always positioned according to the normal flow of the page.
-            - Relative - Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.
-            - Fixed - it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
-                       A fixed element does not leave a gap in the page where it would normally have been located.
-            - Absolute -  is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+            - Static(default) - it is always positioned according to the normal flow of the page.\
+            - Relative - Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position.\
+            - Fixed - it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.\
+                       A fixed element does not leave a gap in the page where it would normally have been located.\
+            - Absolute -  is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).\
                           However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
                           Note: A "positioned" element is one whose position is anything except static.
         **35) What are navigation bars in CSS?**\
              By using navigation bars we can make an ordinary HTML page into a user-specific and more dynamic web page. Basically, it is a list of links, hence use of <ul>
             and <li> elements makes the perfect sense.\
-  
-  
-   
- 
-            
-            
-  
-            
+        **36) Differentiate between inline and block element?**\
+             Inline element does not have an element to set width and height and also it does not have the line break.Block element specification:
+             They do have the line break. They define the width by setting a container and also allow setting height.
+             It can also contain an element that occurs in the inline element\
+        **37) Differentiate between inline and block element?**\
+             Inline element does not have an element to set width and height and also it does not have the line break.\
+        **38)  What are attributes and how are they used?**\
+              input tags can have a type (text, number, radio, etc) and a tags can have href.You can target elements with particular attributes by using square brackets\
+              [attribute="value"].\
+        **39)  What does it mean to be mobile first?**\
+               A “mobile-first” approach involves designing a desktop site starting with the mobile version, which is then adapted to larger screens (contrary to the\
+               traditional approach of starting with a desktop site and then adapting it to smaller screens).\
+        **40)  What are functions/mixins?**\
+               Mixins are a very handy way of adding a number of styles, based on a particular input parameter. For example, you might always want to add fallback styles when
+              adding border-radius, but you don’t necessarily know what value you might want.\
+        **41) What is file splitting and why should you use it?**\
+             File splitting helps organize your CSS into multiple files, decreasing page load time and making things easier to manage. If you’re working with any of the
+             preprocessors above, you can start splitting up your files.\
+        **42) What are the benefits of SVG?**\
+              SVG is an image format that is vector based. It’s an efficient format for that (small file sizes). You can scale them and they retain their sharpness at any\
+              size (bonus points for mentioning raster might have the upper hand at tiny sizes).\
+        **43) Explain display properties: inline, block, inline-block**\
+              - inline - Displays an element as an inline element (like <span>). Any height and width properties will have no effect.\
+              - block - Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.\
+              - inline-block - Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and\ 
+                width values.\
+    
            
            Sources: https://www.javatpoint.com/css-interview-questions \
                     https://hackr.io/blog/css-interview-questions \
                     https://www.w3schools.com/css/css_positioning.asp \
-           
-           
-           
-       
-       
-       
-  
-
-
-      
-      
-      
- 
-     
-
+                    https://www.softwaretestinghelp.com/css-interview-questions \
+                    https://www.goskills.com/Development/Resources/CSS-interview-questions-answers \
+                    https://css-tricks.com/interview-questions-css/ \
+         
 
